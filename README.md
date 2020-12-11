@@ -39,3 +39,6 @@ all: install lint test
 * testing
 
 
+### How to do more things with Github Actions
+
+* [Github Actions Docs](https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python#specifying-a-python-version)
