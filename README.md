@@ -12,6 +12,14 @@ Ubuntu + OS X Python 3.6-3.8 + PyPi
 ![Python package](https://github.com/noahgift/advanced-testing-techniques/workflows/Python%20package/badge.svg)
 
 
+Code Climate Maintability
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/dcd577eb79e75a4798c3/maintainability)](https://codeclimate.com/github/noahgift/advanced-testing-techniques/maintainability)
+
+Code Climate Test Coverage
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/dcd577eb79e75a4798c3/test_coverage)](https://codeclimate.com/github/noahgift/advanced-testing-techniques/test_coverage)
+
 # advanced-testing-techniques
 This is a repo for doing advanced testing
 
