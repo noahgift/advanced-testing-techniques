@@ -1,3 +1,5 @@
+![Advanced Testing with Github Actions](https://github.com/noahgift/advanced-testing-techniques/workflows/Advanced%20Testing%20with%20Github%20Actions/badge.svg)
+
 # advanced-testing-techniques
 This is a repo for doing advanced testing
 
