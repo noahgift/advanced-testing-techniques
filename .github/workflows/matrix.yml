@@ -1,0 +1,30 @@
+name: Python package
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      # You can use PyPy versions in python-version.
+      # For example, pypy2 and pypy3
+      matrix:
+        python-version: [3.6, 3.7, 3.8, pypy3]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    # You can test your matrix by printing the current Python version
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+    - name: Display Linux version
+      run: uname -a
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Lint with pylint
+      run: |
+        make lint
+    - name: Test with pytest
+      run: |
+        make test
