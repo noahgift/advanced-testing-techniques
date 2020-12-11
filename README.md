@@ -20,6 +20,10 @@ Code Climate Test Coverage
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dcd577eb79e75a4798c3/test_coverage)](https://codeclimate.com/github/noahgift/advanced-testing-techniques/test_coverage)
 
+AWS Code Build
+
+https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiR0lIc1B2R0RBNHlrUldxKzZCSlRhalRvK1FodkJKWGs2aXRRWkNlMWdnZGFUMDhyODJkMVlNTXVmTjV3aHlIQTdkOHdneUhUQi9NUGtoZFlTYnFxNy9VPSIsIml2UGFyYW1ldGVyU3BlYyI6ImRBdzBBTGpsSzBVMGtSUmwiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master
+
 # advanced-testing-techniques
 This is a repo for doing advanced testing
 
