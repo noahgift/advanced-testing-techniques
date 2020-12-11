@@ -1,5 +1,8 @@
 ![Advanced Testing with Github Actions](https://github.com/noahgift/advanced-testing-techniques/workflows/Advanced%20Testing%20with%20Github%20Actions/badge.svg)
 
+Python 3.6-3.8 + PyPi
+![Python package](https://github.com/noahgift/advanced-testing-techniques/workflows/Python%20package/badge.svg)
+
 # advanced-testing-techniques
 This is a repo for doing advanced testing
 
