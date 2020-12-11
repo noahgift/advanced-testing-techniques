@@ -6,7 +6,7 @@ def addthis(x,y):
     try: 
         result = x+y
     except TypeError:
-        print(f"The wrong type passed")
+        print("The wrong type passed")
         result = int(x)+int(y)
     
     print(f"This is the result: {result}")
