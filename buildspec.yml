@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+    commands:                                                                 
+      - make install
+  testing & linting:
+    commands:
+      - make lint
+      - make test
+  post_build:
+    commands:
+      - echo Testing completed `date`
